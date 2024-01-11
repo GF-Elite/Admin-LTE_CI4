@@ -6,15 +6,21 @@
   <title>AdminLTE 3 | Navbar & Tabs</title>
 
   <!-- Google Font: Source Sans Pro -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css">
-  <!-- SweetAlert2 -->
-  <link rel="stylesheet" href="../../plugins/sweetalert2/sweetalert2.min.css">
-  <!-- Toastr -->
-  <link rel="stylesheet" href="../../plugins/toastr/toastr.min.css">
-  <!-- Theme style -->
-  <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
+ <!-- Google Font: Source Sans Pro -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="<?= base_url('assets/plugins/fontawesome-free/css/all.min.css') ?>">
+
+<!-- SweetAlert2 -->
+<link rel="stylesheet" href="<?= base_url('assets/plugins/sweetalert2/sweetalert2.min.css') ?>">
+
+<!-- Toastr -->
+<link rel="stylesheet" href="<?= base_url('assets/plugins/toastr/toastr.min.css') ?>">
+
+<!-- Theme style -->
+<link rel="stylesheet" href="<?= base_url('assets/dist/css/adminlte.min.css') ?>">
+
 </head>
 <body class="hold-transition sidebar-mini">
 <div class="wrapper">

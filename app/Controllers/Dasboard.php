@@ -31,20 +31,17 @@ class Dasboard extends BaseController
     {
       return view ('pages/UI/general');
     }
-    public function icons()
+    public function navbar()
     {
-      return view ('pages/UI/icons');
+      return view ('pages/UI/navbar');
     }
-    public function buttons()
+    public function timeline()
     {
-      return view ('pages/UI/buttons');
+      return view ('pages/UI/timeline');
     }
-    public function sliders()
+    public function ribbons()
     {
-      return view ('pages/UI/sliders');
+      return view ('pages/UI/ribbons');
     }
-    public function modals()
-    {
-      return view ('pages/UI/modals');
-    }
+    
 }
