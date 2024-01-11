@@ -8,6 +8,7 @@ use CodeIgniter\Router\RouteCollection;
 $routes->get('/', 'Home::index');
 $routes->get('Dasboard', 'Dasboard::index');
 $routes->add('/pages/charts/chartjs.php', 'Dasboard::chartjs');
+
 $routes->add('/pages/charts/flot.php', 'Dasboard::flot');
 $routes->add('/pages/charts/inline.php', 'Dasboard::inline');
 $routes->add('/pages/charts/uplot.php', 'Dasboard::uplot');
